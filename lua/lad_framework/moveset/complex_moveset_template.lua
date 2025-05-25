@@ -65,7 +65,7 @@ local MovesetTable = {
         WeaponPickUpChance = 30,      -- Chance for AI to pick up a weapon, 1 in x, default is 30
         WeaponSearchRadius = 400,     -- Radius in which AI will search for weapons, default is 400
     },
-    ["CustomMovesetInitialize"] = function(self)    -- Optional custom function to initialize the moveset, called when the moveset is set
+    ["CustomMovesetInitialize"] = function(self)    -- Optional custom function called when the moveset is set
         local ID = math.random(1,3)
         print("test "..tostring(ID))
     end,
