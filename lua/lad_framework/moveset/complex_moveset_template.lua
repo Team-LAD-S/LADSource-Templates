@@ -1,4 +1,4 @@
-local MovesetName = "MOVESET_TEMPLATE_COMPLEX" -- Moveset name, you will use this to reference the moveset in code
+local MovesetName = "COMPLEX_MOVESET_TEMPLATE" -- Moveset name, you will use this to reference the moveset in code
 local MovesetTable = {
     ["MovesetProperties"] = {
         Icon = "player/kiryu_0_b.png",                      -- Style icon (appears in Yakuza 0 HUD)
