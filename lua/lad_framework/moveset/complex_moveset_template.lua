@@ -31,7 +31,7 @@ local MovesetTable = {
         TauntHeatRate = 20,             -- Heat gain while taunting, 0 to disable heat gain while taunting
 
         -- Optional properties with default values below, they do not need to be set unless you want to change the default behavior
-        CanPickUpWeapons = true,        -- Can the nextbot pick up weapons? If false, it will not pick up any weapons
+        CanPickUpWeapons = true,        -- Can the nextbot pick up weapons?
 
 
         WeaponAttachment = "weapon",  -- Attachment to use for weapons, if empty, "weapon" will be used
